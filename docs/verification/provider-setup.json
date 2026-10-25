@@ -1,0 +1,15 @@
+{
+  "project": "applicodo",
+  "production_branch": "master",
+  "widget_name": "Applicodo contact",
+  "sitekey": "0x4AAAAAAFlpkYdS5nF9KqrT",
+  "domains": [
+    "applicodo.com"
+  ],
+  "mode": "managed",
+  "production_secret_names": [
+    "TURNSTILE_SECRET_KEY",
+    "TURNSTILE_SITE_KEY"
+  ],
+  "preview_secret_names": []
+}

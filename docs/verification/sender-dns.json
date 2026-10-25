@@ -1,0 +1,31 @@
+{
+  "authoritative_sender_records": {
+    "TXT resend._domainkey.forms.applicodo.com": {
+      "marek.ns.cloudflare.com.": [
+        "\"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dTaRkXA27sbO5jB44A96OVjmW3+tQFT8wCYtoz/VFZ8s3sjsFb99/w/qTAol3GcdN0hjJwK5Zd8M5fwx+fSfG/2Y+mUeHT6lXHFUP4yLo+d0rGavX2aKnNBGd2CYg96KaK6zU3gHHzIUaEebNQVAMqL/6RseUVndnChpbzQ2awIDAQAB\""
+      ],
+      "becky.ns.cloudflare.com.": [
+        "\"p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dTaRkXA27sbO5jB44A96OVjmW3+tQFT8wCYtoz/VFZ8s3sjsFb99/w/qTAol3GcdN0hjJwK5Zd8M5fwx+fSfG/2Y+mUeHT6lXHFUP4yLo+d0rGavX2aKnNBGd2CYg96KaK6zU3gHHzIUaEebNQVAMqL/6RseUVndnChpbzQ2awIDAQAB\""
+      ]
+    },
+    "CNAME rsend.forms.applicodo.com": {
+      "marek.ns.cloudflare.com.": [
+        "rsend-euw1.forge.rmta.net."
+      ],
+      "becky.ns.cloudflare.com.": [
+        "rsend-euw1.forge.rmta.net."
+      ]
+    },
+    "CNAME send.forms.applicodo.com": {
+      "marek.ns.cloudflare.com.": [
+        "send.forge.rmta.net."
+      ],
+      "becky.ns.cloudflare.com.": [
+        "send.forge.rmta.net."
+      ]
+    }
+  },
+  "workspace_records_unchanged": true,
+  "configured_record_count_before": 27,
+  "configured_record_count_after": 30
+}

@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T20:23:07.962860+00:00",
+  "title": "Design System: Applicodo",
+  "extensions": {
+    "colorMeta": {
+      "blue": {
+        "role": "primary",
+        "displayName": "Confident Blue",
+        "tonalRamp": [
+          "oklch(15% 0.23778 264.86)",
+          "oklch(26% 0.23778 264.86)",
+          "oklch(38% 0.23778 264.86)",
+          "oklch(49% 0.23778 264.86)",
+          "oklch(61% 0.23778 264.86)",
+          "oklch(72% 0.23778 264.86)",
+          "oklch(84% 0.23778 264.86)",
+          "oklch(95% 0.23778 264.86)"
+        ]
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Deep Blue",
+        "tonalRamp": [
+          "oklch(15% 0.20778 264.95)",
+          "oklch(26% 0.20778 264.95)",
+          "oklch(38% 0.20778 264.95)",
+          "oklch(49% 0.20778 264.95)",
+          "oklch(61% 0.20778 264.95)",
+          "oklch(72% 0.20778 264.95)",
+          "oklch(84% 0.20778 264.95)",
+          "oklch(95% 0.20778 264.95)"
+        ]
+      },
+      "blue-soft": {
+        "role": "primary",
+        "displayName": "Pale Blue",
+        "tonalRamp": [
+          "oklch(15% 0.03208 272.27)",
+          "oklch(26% 0.03208 272.27)",
+          "oklch(38% 0.03208 272.27)",
+          "oklch(49% 0.03208 272.27)",
+          "oklch(61% 0.03208 272.27)",
+          "oklch(72% 0.03208 272.27)",
+          "oklch(84% 0.03208 272.27)",
+          "oklch(95% 0.03208 272.27)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "tonalRamp": [
+          "oklch(15% 0.01041 260.70)",
+          "oklch(26% 0.01041 260.70)",
+          "oklch(38% 0.01041 260.70)",
+          "oklch(49% 0.01041 260.70)",
+          "oklch(61% 0.01041 260.70)",
+          "oklch(72% 0.01041 260.70)",
+          "oklch(84% 0.01041 260.70)",
+          "oklch(95% 0.01041 260.70)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cool Gray",
+        "tonalRamp": [
+          "oklch(15% 0.02182 265.84)",
+          "oklch(26% 0.02182 265.84)",
+          "oklch(38% 0.02182 265.84)",
+          "oklch(49% 0.02182 265.84)",
+          "oklch(61% 0.02182 265.84)",
+          "oklch(72% 0.02182 265.84)",
+          "oklch(84% 0.02182 265.84)",
+          "oklch(95% 0.02182 265.84)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "White Paper",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26% 0.00000 0.00)",
+          "oklch(38% 0.00000 0.00)",
+          "oklch(49% 0.00000 0.00)",
+          "oklch(61% 0.00000 0.00)",
+          "oklch(72% 0.00000 0.00)",
+          "oklch(84% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Cool Pale",
+        "tonalRamp": [
+          "oklch(15% 0.00454 258.32)",
+          "oklch(26% 0.00454 258.32)",
+          "oklch(38% 0.00454 258.32)",
+          "oklch(49% 0.00454 258.32)",
+          "oklch(61% 0.00454 258.32)",
+          "oklch(72% 0.00454 258.32)",
+          "oklch(84% 0.00454 258.32)",
+          "oklch(95% 0.00454 258.32)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fine Rule",
+        "tonalRamp": [
+          "oklch(15% 0.01175 264.51)",
+          "oklch(26% 0.01175 264.51)",
+          "oklch(38% 0.01175 264.51)",
+          "oklch(49% 0.01175 264.51)",
+          "oklch(61% 0.01175 264.51)",
+          "oklch(72% 0.01175 264.51)",
+          "oklch(84% 0.01175 264.51)",
+          "oklch(95% 0.01175 264.51)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Wide-screen hero heading; responsive variants are recorded in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Primary section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service row titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Service and approach paragraphs."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero introduction."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Base action label before contextual responsive rules."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Persistent form labels."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Lowercase Applicodo identity."
+      }
+    },
+    "shadows": [
+      {
+        "name": "device",
+        "value": "0 19px 28px #1a202333",
+        "purpose": "Larger-screen device chrome."
+      },
+      {
+        "name": "device-phone",
+        "value": "0 13px 19px #1a202333",
+        "purpose": "Device chrome at 540px and below."
+      },
+      {
+        "name": "secondary-stroke",
+        "value": "inset 0 0 0 1px #c9cfda",
+        "purpose": "Secondary action boundary; removed from the phone hero action."
+      },
+      {
+        "name": "control-pressed",
+        "value": "inset 0 2px 4px #0b2b8640",
+        "purpose": "Shared button active state."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Control transitions and the optional product-screen settle."
+      },
+      {
+        "name": "control-transition",
+        "value": "180ms",
+        "purpose": "Background, color and box-shadow changes."
+      },
+      {
+        "name": "screen-settle",
+        "value": "900ms",
+        "purpose": "A single 12px upward settle when reduced motion is not requested."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto",
+        "purpose": "All content remains visible; disable animation, transitions and smooth scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "header-wrap-max",
+        "value": "359px"
+      },
+      {
+        "name": "phone-max",
+        "value": "540px"
+      },
+      {
+        "name": "stack-max",
+        "value": "900px"
+      },
+      {
+        "name": "desktop-min",
+        "value": "901px"
+      },
+      {
+        "name": "intermediate-desktop-max",
+        "value": "1279px"
+      },
+      {
+        "name": "wide-actions-min",
+        "value": "1280px"
+      },
+      {
+        "name": "large-canvas-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Canonical blue action; responsive hero sizing is documented in DESIGN.md.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Tell me about your idea<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:1rem;padding:1.25rem 1.625rem;border:0;border-radius:10px;text-decoration:none;font-family:Manrope,sans-serif;font-size:1.125rem;line-height:1.5;font-weight:650;cursor:pointer;transition:background 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),color 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),box-shadow 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1));background:var(--blue,#2254ef);color:var(--paper,#ffffff);}.ds-button-primary:hover{background:var(--blue-deep,#173fc2);}.ds-button-primary:focus-visible{outline:3px solid var(--blue,#2254ef);outline-offset:6px;}.ds-button-primary:active{box-shadow:inset 0 2px 4px #0b2b8640;}.ds-button-primary:disabled{opacity:0.72;cursor:wait;}.ds-button-primary svg{width:1.4em;height:1.4em;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none;}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined desktop action; the phone hero renders it as an underlined link.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Explore the work</button>",
+      "css": ".ds-button-secondary{display:inline-flex;align-items:center;justify-content:center;gap:1rem;padding:1.25rem 1.625rem;border:0;border-radius:10px;text-decoration:none;font-family:Manrope,sans-serif;font-size:1.125rem;line-height:1.5;font-weight:650;cursor:pointer;transition:background 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),color 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),box-shadow 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1));background:var(--paper,#ffffff);color:var(--ink,#202328);box-shadow:inset 0 0 0 1px #c9cfda;}.ds-button-secondary:hover{background:var(--surface,#f3f5f8);}.ds-button-secondary:focus-visible{outline:3px solid var(--blue,#2254ef);outline-offset:6px;}.ds-button-secondary:active{box-shadow:inset 0 2px 4px #0b2b8640;}.ds-button-secondary:disabled{opacity:0.72;cursor:wait;}.ds-button-secondary svg{width:1.4em;height:1.4em;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none;}}"
+    },
+    {
+      "name": "Light Contact Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "White action against the blue contact surface.",
+      "html": "<div class=\"ds-contact-context\"><button class=\"ds-button-light\" type=\"button\">Send your message<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-button-light{display:inline-flex;align-items:center;justify-content:center;gap:1rem;padding:1.25rem 1.625rem;border:0;border-radius:10px;text-decoration:none;font-family:Manrope,sans-serif;font-size:1.125rem;line-height:1.5;font-weight:650;cursor:pointer;transition:background 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),color 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),box-shadow 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1));background:var(--paper,#ffffff);color:var(--blue-deep,#173fc2);}.ds-button-light:hover{background:var(--blue-soft,#e1e8ff);}.ds-button-light:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:6px;}.ds-button-light:active{box-shadow:inset 0 2px 4px #0b2b8640;}.ds-button-light:disabled{opacity:0.72;cursor:wait;}.ds-button-light svg{width:1.4em;height:1.4em;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}@media(prefers-reduced-motion:reduce){.ds-button-light{transition:none;}}.ds-contact-context{background:var(--blue,#2254ef);padding:1.5rem;}"
+    },
+    {
+      "name": "Contact Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "A labeled white field with a visible focus outline on the contact surface.",
+      "html": "<div class=\"ds-field-context\"><label class=\"ds-field-label\" for=\"ds-name\">Your name</label><input class=\"ds-field-input\" id=\"ds-name\" name=\"name\" autocomplete=\"name\" maxlength=\"100\" required></div>",
+      "css": ".ds-field-context{background:var(--blue,#2254ef);color:var(--paper,#ffffff);padding:1.5rem;font-family:Manrope,sans-serif;}.ds-field-label{display:block;margin-bottom:0.75rem;font-size:0.9375rem;font-weight:650;}.ds-field-input{width:100%;min-height:54px;padding:0.875rem 1rem;border:1px solid #b7c6ff;border-radius:8px;background:var(--paper,#ffffff);color:var(--ink,#202328);font-family:Manrope,sans-serif;font-size:1rem;line-height:1.6;caret-color:var(--blue,#2254ef);}.ds-field-input::placeholder{color:var(--muted,#626875);opacity:1;}.ds-field-input:focus-visible{outline:3px solid var(--paper,#ffffff);outline-offset:4px;border-color:var(--blue-deep,#173fc2);}"
+    },
+    {
+      "name": "Open Header Navigation",
+      "kind": "nav",
+      "description": "Typographic wordmark, two text links and a compact primary contact action; wraps at the narrowest widths.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-wordmark\" href=\"#\">applicodo</a><nav class=\"ds-nav\" aria-label=\"Example navigation\"><a href=\"#work\">Work</a><a href=\"#approach\">Approach</a><a class=\"ds-nav-action\" href=\"#contact\">Let’s talk</a></nav></header>",
+      "css": ".ds-header{min-height:100px;display:flex;align-items:center;justify-content:space-between;gap:2rem;color:var(--ink,#202328);font-family:Manrope,sans-serif;}.ds-wordmark{font-size:clamp(1.75rem,2.8vw,2.625rem);font-weight:800;letter-spacing:-0.04em;line-height:1;text-decoration:none;color:inherit;}.ds-nav{display:flex;align-items:center;gap:clamp(1.75rem,3.3vw,3.5rem);font-size:1.125rem;font-weight:600;}.ds-nav>a{color:inherit;text-decoration:none;}.ds-nav>a:not(.ds-nav-action):hover{text-decoration:underline;text-underline-offset:0.22em;}.ds-nav .ds-nav-action{display:inline-flex;align-items:center;justify-content:center;gap:1rem;padding:1.25rem 1.625rem;border:0;border-radius:10px;text-decoration:none;font-family:Manrope,sans-serif;font-size:1.125rem;line-height:1.5;font-weight:650;cursor:pointer;transition:background 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),color 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1)),box-shadow 180ms var(--ease-out,cubic-bezier(0.16,1,0.3,1));background:var(--blue,#2254ef);color:var(--paper,#ffffff);padding:0.9rem 1.75rem;}.ds-nav-action:hover{background:var(--blue-deep,#173fc2);}.ds-nav-action:active{box-shadow:inset 0 2px 4px #0b2b8640;}.ds-header a:focus-visible{outline:3px solid var(--blue,#2254ef);outline-offset:6px;}@media(min-width:901px){.ds-nav{font-size:clamp(1.125rem,1.3021vw,1.25rem);}.ds-nav .ds-nav-action{min-width:clamp(8.375rem,10.4167vw,10rem);min-height:clamp(3.5rem,4.2318vw,4.0625rem);padding:0.75rem 1.25rem;font-size:clamp(1.125rem,1.4323vw,1.375rem);}}@media(max-width:900px){.ds-header{min-height:90px;}.ds-nav{font-size:0.9375rem;gap:1.5rem;}.ds-nav .ds-nav-action{padding:0.7rem 1.1rem;}}@media(max-width:540px){.ds-header{min-height:80px;gap:0.75rem;}.ds-wordmark{font-size:1.75rem;}.ds-nav{gap:1rem;font-size:0.8125rem;}.ds-nav .ds-nav-action{padding:0.6rem 0.75rem;font-size:0.8125rem;border-radius:7px;}}@media(max-width:359px){.ds-header{flex-wrap:wrap;row-gap:1rem;padding-block:1.25rem 0.75rem;}.ds-wordmark{flex-basis:100%;}.ds-nav{width:100%;justify-content:space-between;gap:0.75rem;}}@media(prefers-reduced-motion:reduce){.ds-nav-action{transition:none;}}"
+    },
+    {
+      "name": "Capability Tag",
+      "kind": "chip",
+      "description": "Noninteractive product capability with a fine underline; no filled pill or selected state.",
+      "html": "<ul class=\"ds-capabilities\" aria-label=\"CaptionFast capabilities\"><li>Speech transcription</li><li>Caption styling</li><li>Video export</li></ul>",
+      "css": ".ds-capabilities{list-style:none;display:flex;flex-wrap:wrap;gap:0.75rem 1.25rem;padding:0;margin:0;font-family:Manrope,sans-serif;font-size:0.875rem;font-weight:650;color:var(--ink,#202328);}.ds-capabilities li{border-bottom:1px solid var(--line,#d9dde5);padding-bottom:0.4rem;}@media(max-width:540px){.ds-capabilities{gap:0.75rem 1rem;font-size:0.8125rem;}}"
+    },
+    {
+      "name": "Ruled Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "An open two-column title and description separated by fine rules; stacks on phones.",
+      "html": "<article class=\"ds-service-row\"><h3>Build something new</h3><p>Native iOS development with Swift and SwiftUI. A clear foundation, thoughtful interactions, and the details that make an app feel at home on iPhone.</p></article>",
+      "css": ".ds-service-row{display:grid;grid-template-columns:1fr 1.04fr;gap:1.5rem;padding-block:2.25rem;border-top:1px solid var(--line,#d9dde5);border-bottom:1px solid var(--line,#d9dde5);color:var(--ink,#202328);font-family:Manrope,sans-serif;}.ds-service-row h3{margin:0;font-size:1.5rem;letter-spacing:-0.025em;font-weight:650;text-wrap:balance;}.ds-service-row p{margin:0;max-width:65ch;font-size:1.125rem;line-height:1.75;color:var(--muted,#626875);text-wrap:pretty;}@media(max-width:900px){.ds-service-row{grid-template-columns:0.85fr 1.15fr;gap:2rem;}.ds-service-row h3{font-size:1.25rem;}.ds-service-row p{font-size:1rem;}}@media(max-width:540px){.ds-service-row{grid-template-columns:1fr;gap:0.875rem;padding-block:1.75rem;}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Open canvas",
+    "overview": "The approved identity is “bold typography, generous spacing, graphite text, light backgrounds, and a confident blue accent.” It presents an independent developer through clear language and authentic iOS work. White and cool pale surfaces keep the experience open; strong Manrope headings and blue actions provide direction.\n\nThe system is spacious and direct. Product screens sit in simple device chrome, while content uses open columns and fine rules. Blue can form an entire contact surface as well as an action or highlighted phrase. The chosen first-surface composition and its approved comp remain in `docs/landing-brief.md`; they do not prescribe every future page layout.",
+    "keyCharacteristics": [
+      "Bold, tightly spaced sans-serif headings with relaxed body copy.",
+      "Light surfaces, graphite text and a confident blue accent.",
+      "Authentic app imagery, open content and restrained ruled rows.",
+      "Quiet, optional motion and clearly visible keyboard focus."
+    ],
+    "rules": [
+      {
+        "name": "The Purposeful Blue Rule",
+        "body": "Use blue to direct action, emphasize a short phrase or anchor a meaningful section. Its full-width contact use is part of the implemented world; do not impose an invented percentage limit.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Keep the interface in Manrope. The implemented system has no decorative display face or code-style monospace role.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Content Rule",
+        "body": "Keep ordinary prose and service rows flat and open. Device framing is a native part of the product presentation and retains its soft shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use the light canvas, graphite typography and blue roles together as one identity.",
+      "**Do** preserve original app screenshot proportions, descriptive alternatives and shipping asset provenance.",
+      "**Do** use open columns, readable paragraph widths and fine rules for content hierarchy.",
+      "**Do** preserve visible keyboard focus, labeled fields, announced feedback and reduced-motion behavior.",
+      "**Do** let navigation, content and actions wrap or stack at the observed breakpoints."
+    ],
+    "donts": [
+      "**Don't** replace real product work with stock team photography, invented dashboards, testimonials or statistics.",
+      "**Don't** introduce decorative gradients, glass, code-style monospace, repeated icon cards or section numbering into this approved world.",
+      "**Don't** turn the service rows into a reusable raised-card pattern.",
+      "**Don't** hide key copy, actions or form fields to make a composition fit."
+    ]
+  }
+}
