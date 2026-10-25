@@ -8,8 +8,18 @@
   ],
   "mode": "managed",
   "production_secret_names": [
+    "RESEND_API_KEY",
     "TURNSTILE_SECRET_KEY",
     "TURNSTILE_SITE_KEY"
   ],
-  "preview_secret_names": []
+  "preview_secret_names": [],
+  "resend_key": {
+    "id": "dd92c7e4-d117-466b-945b-b6bf0409da1e",
+    "name": "Applicodo website contact",
+    "permission": "Sending access",
+    "domain": "forms.applicodo.com",
+    "domain_id": "ef011d3f-0620-4df7-9a93-5245f6f54c44",
+    "encrypted_production_binding": "RESEND_API_KEY",
+    "plaintext_handoff_removed": true
+  }
 }
