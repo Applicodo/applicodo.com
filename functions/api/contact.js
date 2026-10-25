@@ -115,7 +115,8 @@ async function upstreamJson(fetchImpl, url, init, timeoutMs) {
   try {
     return await Promise.race([
       (async () => {
-        const response = await fetchImpl(url, { ...init, signal: controller.signal, redirect: "error" });
+        // Workers supports manual redirects; callers reject non-2xx responses.
+        const response = await fetchImpl(url, { ...init, signal: controller.signal, redirect: "manual" });
         return { ok: response.ok, data: await readBoundedJson(response.body, MAX_UPSTREAM_BYTES) };
       })(),
       deadline,

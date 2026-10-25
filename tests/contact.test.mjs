@@ -65,8 +65,8 @@ test("a verified multilingual enquiry is delivered to the fixed inbox as plain t
   assert.equal("cc" in mail, false);
   assert.equal("bcc" in mail, false);
   assert.equal(mock.calls[1].init.headers.Authorization, `Bearer ${env.RESEND_API_KEY}`);
-  assert.equal(mock.calls[0].init.redirect, "error");
-  assert.equal(mock.calls[1].init.redirect, "error");
+  assert.equal(mock.calls[0].init.redirect, "manual");
+  assert.equal(mock.calls[1].init.redirect, "manual");
 });
 
 test("HTML and script-looking text stays inert in the email body and is never echoed", async () => {

@@ -4,7 +4,7 @@ Plain HTML, CSS and minimal JavaScript for independent iOS development. Only `pu
 
 ## Development
 
-Use Node 22+. Run `npm ci`, `npm run dev` and `npm run check`. Local and preview deployments cannot send email. `npm audit` checks development tooling; there are no production npm dependencies.
+Use Node 22+. Run `npm ci`, `npm run dev` and `npm run check`. The checks include a local workerd regression using Wrangler's pinned runtime, with all provider requests intercepted. Local and preview deployments cannot send email. `npm audit` checks development tooling; there are no production npm dependencies.
 
 ## Production contact setup
 
