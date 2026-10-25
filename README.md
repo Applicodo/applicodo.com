@@ -26,7 +26,7 @@ Require independent design/security review and passing checks. Record reviewed c
 
 ## Security and data
 
-Bounded JSON accepts name/email/message/Turnstile token. Verification checks success, hostname and action before a fixed REST call to Resend. Exact origin/production guards, uncached API responses, inert plain text and restrictive security headers reduce the attack surface. No content/email/token logging exists.
+Bounded JSON accepts name/email/message/Turnstile token. Verification checks success, hostname and action before a fixed REST call to Resend. Exact origin/production guards, uncached API responses, inert plain text and restrictive security headers reduce the attack surface. The application does not log submitted content, email addresses or tokens. Run credential-related Wrangler commands with `WRANGLER_WRITE_LOGS=false` so operator tooling does not save credential responses to debug logs.
 
 No website lead database, accounts, uploads, payments or analytics. Enquiries necessarily remain in the destination mailbox; Cloudflare and Resend process them under their retention policies. See `applicodo.com-threat-model.md`.
 

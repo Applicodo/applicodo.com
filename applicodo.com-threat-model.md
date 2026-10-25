@@ -13,7 +13,7 @@ Applicodo is a public static marketing site with a narrowly scoped contact funct
 
 **Verified setup:** the existing Pages project now has `production_branch: master`. The managed Turnstile widget “Applicodo contact” permits only `applicodo.com`; its two production secret binding names are present and the preview secret list is empty (`docs/verification/provider-setup.json`). All three Resend sender records resolve on both authoritative nameservers; the pre-existing Workspace records are unchanged, with only the sender additions increasing the record count from 27 to 30 (`docs/verification/sender-dns.json`). The release agent also confirmed all three through public resolvers and observed `forms.applicodo.com` as Verified in Resend. These setup observations do not prove working mail delivery.
 
-**Remaining release facts that change residual risk:** create/configure the dedicated domain-restricted Resend sending key; verify the contact POST rate-limit rule on the proxied apex; verify the actual production/preview environment, live response headers and public-output boundary after deployment; and receive a controlled enquiry in the fixed mailbox. Production sending and inbox delivery remain unverified.
+**Remaining release facts that change residual risk:** create/configure the dedicated domain-restricted Resend sending key; verify the contact POST rate-limit rule on the proxied apex; verify scoped HTTP-to-HTTPS and www-to-apex canonicalization; verify the actual production/preview environment, live response headers and public-output boundary after deployment; and receive a controlled enquiry in the fixed mailbox. Production sending and inbox delivery remain unverified.
 
 ## System model
 

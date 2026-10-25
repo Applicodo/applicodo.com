@@ -1,0 +1,50 @@
+{
+  "commit": "bea9e305700e62421091131533e9d04746bfdb63",
+  "url": "https://b215f2e1.applicodo.pages.dev",
+  "checks": {
+    "/": {
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "csp": true,
+      "cache_control": "no-cache",
+      "matches_public_index": true,
+      "brief_note_present": true,
+      "removed_disclosure_absent": true
+    },
+    "/api/contact-config": {
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "csp": true,
+      "cache_control": "no-store",
+      "config": {
+        "siteKey": "",
+        "deliveryEnabled": false,
+        "preview": true
+      }
+    },
+    "/missing-page": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "csp": true,
+      "cache_control": "no-store"
+    },
+    "/wp-admin/admin-ajax.php": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "csp": true,
+      "cache_control": "no-store"
+    },
+    "/applicodo.com-threat-model.md": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "csp": true,
+      "cache_control": "no-store"
+    },
+    "/package.json": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "csp": true,
+      "cache_control": "no-store"
+    }
+  }
+}
