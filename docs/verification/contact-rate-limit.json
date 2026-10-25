@@ -1,0 +1,43 @@
+{
+  "rule_name": "Applicodo contact form",
+  "hostname": "applicodo.com",
+  "path": "/api/contact",
+  "method": "POST",
+  "requests": 5,
+  "period_seconds": 10,
+  "mitigation_seconds": 10,
+  "status": "Active in provider UI",
+  "probe_statuses": [
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    405,
+    429,
+    429,
+    429,
+    429,
+    429
+  ],
+  "enforcement_verified": true,
+  "outside_scope_probes": [
+    {
+      "path": "/",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/contact",
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "path": "/api/contact-other",
+      "method": "POST",
+      "status": 405
+    }
+  ],
+  "probe_user_agent": "Mozilla/5.0"
+}
