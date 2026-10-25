@@ -100,6 +100,13 @@ test("all responses contain security headers and no permissive CORS", async () =
   }
 });
 
+test("alternate contact paths cannot bypass the exact edge rate-limit path", async () => {
+  for (const path of ["/api/contact/", "/api//contact", "/api/%63ontact", "/api/contact%2F"]) {
+    const mock = await rejected(request(fields, { url: `https://applicodo.com${path}` }), 404);
+    assert.equal(mock.calls.length, 0);
+  }
+});
+
 test("non-POST methods are rejected without contacting providers", async () => {
   for (const method of ["GET", "PUT", "DELETE", "OPTIONS", "HEAD"]) {
     const mock = upstream();

@@ -19,7 +19,7 @@ const fields = {
   turnstileToken: "fake-runtime-token",
 };
 
-test("workerd verifies and sends without following either provider's redirects", { timeout: 20000 }, async (t) => {
+test("workerd confines contact delivery to the canonical path and rejects provider redirects", { timeout: 20000 }, async (t) => {
   const scratch = await mkdtemp(join(tmpdir(), "applicodo-contact-runtime-"));
   const calls = [];
   let scenario = "success";
@@ -69,16 +69,17 @@ test("workerd verifies and sends without following either provider's redirects",
       },
     }));
 
-    for (const [name, status, code, destinations] of [
+    for (const [name, status, code, destinations, path = "/api/contact"] of [
       ["success", 200, undefined, [siteverify, resend]],
       ["verification-redirect", 503, "verification_unavailable", [siteverify]],
       ["delivery-redirect", 503, "delivery_failed", [siteverify, resend]],
       ["invalid-token", 403, "verification_failed", [siteverify]],
+      ["trailing-slash", 404, "not_found", [], "/api/contact/"],
     ]) {
       await t.test(name, async () => {
         scenario = name;
         calls.length = 0;
-        const response = await worker.dispatchFetch("https://applicodo.com/api/contact", {
+        const response = await worker.dispatchFetch(`https://applicodo.com${path}`, {
           method: "POST",
           headers: { "Content-Type": "application/json", Origin: "https://applicodo.com" },
           body: JSON.stringify(fields),
@@ -88,7 +89,7 @@ test("workerd verifies and sends without following either provider's redirects",
         assert.equal(result.ok, status === 200);
         assert.equal(result.code, code);
         assert.deepEqual(calls.map(({ url }) => url), destinations);
-        assert.equal(calls[0].authorization, null);
+        if (calls.length > 0) assert.equal(calls[0].authorization, null);
         if (calls.length === 2) assert.equal(calls[1].authorization, "Bearer fake-resend-runtime-secret");
       });
     }

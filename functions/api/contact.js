@@ -127,11 +127,15 @@ async function upstreamJson(fetchImpl, url, init, timeoutMs) {
 }
 
 export async function handleContact(request, env, { fetch: fetchImpl = globalThis.fetch, timeoutMs = 5000 } = {}) {
+  const url = new URL(request.url);
+  // Pages also routes a trailing slash here; only the WAF-covered path may send.
+  if (url.pathname !== "/api/contact") {
+    return jsonResponse(404, "not_found", "This endpoint is not available.");
+  }
   if (request.method !== "POST") {
     return jsonResponse(405, "method_not_allowed", "Submit the contact form using POST.");
   }
 
-  const url = new URL(request.url);
   if (url.origin !== PRODUCTION_ORIGIN || request.headers.get("Origin") !== PRODUCTION_ORIGIN) {
     return jsonResponse(403, "origin_rejected", "Please send your message from applicodo.com.");
   }
