@@ -65,8 +65,8 @@ test("a verified multilingual enquiry is delivered to the fixed inbox as plain t
   assert.equal("cc" in mail, false);
   assert.equal("bcc" in mail, false);
   assert.equal(mock.calls[1].init.headers.Authorization, `Bearer ${env.RESEND_API_KEY}`);
-  assert.equal(mock.calls[0].init.redirect, "error");
-  assert.equal(mock.calls[1].init.redirect, "error");
+  assert.equal(mock.calls[0].init.redirect, "manual");
+  assert.equal(mock.calls[1].init.redirect, "manual");
 });
 
 test("HTML and script-looking text stays inert in the email body and is never echoed", async () => {
@@ -97,6 +97,13 @@ test("all responses contain security headers and no permissive CORS", async () =
     assert.equal(response.headers.get("X-Frame-Options"), "DENY");
     assert.equal(response.headers.get("Access-Control-Allow-Origin"), null);
     assert.ok(response.headers.get("Content-Security-Policy").includes("frame-ancestors 'none'"));
+  }
+});
+
+test("alternate contact paths cannot bypass the exact edge rate-limit path", async () => {
+  for (const path of ["/api/contact/", "/api//contact", "/api/%63ontact", "/api/contact%2F"]) {
+    const mock = await rejected(request(fields, { url: `https://applicodo.com${path}` }), 404);
+    assert.equal(mock.calls.length, 0);
   }
 });
 
