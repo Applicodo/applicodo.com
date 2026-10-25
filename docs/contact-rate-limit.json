@@ -1,0 +1,1 @@
+{"description":"Applicodo contact form","expression":"(http.host eq \"applicodo.com\" and http.request.uri.path eq \"/api/contact\" and http.request.method eq \"POST\")","action":"block","ratelimit":{"characteristics":["cf.colo.id","ip.src"],"period":10,"requests_per_period":5,"mitigation_timeout":10},"enabled":true}

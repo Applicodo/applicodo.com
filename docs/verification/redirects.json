@@ -1,0 +1,17 @@
+[
+  {
+    "url": "http://applicodo.com/verify-path?release=1",
+    "status": 301,
+    "location": "https://applicodo.com/verify-path?release=1"
+  },
+  {
+    "url": "http://www.applicodo.com/verify-path?release=1",
+    "status": 301,
+    "location": "https://applicodo.com/verify-path?release=1"
+  },
+  {
+    "url": "https://www.applicodo.com/verify-path?release=1",
+    "status": 301,
+    "location": "https://applicodo.com/verify-path?release=1"
+  }
+]

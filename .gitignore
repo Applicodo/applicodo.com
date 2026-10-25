@@ -1,3 +1,13 @@
 _site
 .sass-cache
 .jekyll-metadata
+node_modules/
+.wrangler/
+.dev.vars*
+.env*
+!.env.example
+.impeccable/build/
+.impeccable/review/
+.impeccable/mocks/
+playwright-report/
+test-results/

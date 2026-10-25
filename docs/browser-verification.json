@@ -1,0 +1,766 @@
+{
+  "verifiedAt": "2026-10-25T20:02:40Z",
+  "target": "http://localhost:8788/",
+  "captureRound": "second and final build-thread round, after narrow header and privacy changes",
+  "browser": "Playwright Chromium",
+  "matrix": [
+    {
+      "width": 1536,
+      "height": 1024,
+      "name": "hero-repro.png",
+      "fullPage": false,
+      "documentWidth": 1525,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 100,
+      "hero": {
+        "x": 60,
+        "y": 100,
+        "width": 1405,
+        "height": 804
+      },
+      "phones": [
+        {
+          "x": 818,
+          "y": 162,
+          "width": 279,
+          "height": 590
+        },
+        {
+          "x": 1129,
+          "y": 214,
+          "width": 279,
+          "height": 590
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "name": "desktop.png",
+      "fullPage": true,
+      "documentWidth": 1429,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 100,
+      "hero": {
+        "x": 58,
+        "y": 100,
+        "width": 1314,
+        "height": 786
+      },
+      "phones": [
+        {
+          "x": 767,
+          "y": 172,
+          "width": 260,
+          "height": 550
+        },
+        {
+          "x": 1057,
+          "y": 224,
+          "width": 260,
+          "height": 550
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "name": "user-1280.png",
+      "fullPage": false,
+      "documentWidth": 1269,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 100,
+      "hero": {
+        "x": 51,
+        "y": 100,
+        "width": 1167,
+        "height": 786
+      },
+      "phones": [
+        {
+          "x": 683,
+          "y": 206,
+          "width": 231,
+          "height": 485
+        },
+        {
+          "x": 940,
+          "y": 258,
+          "width": 231,
+          "height": 485
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    },
+    {
+      "width": 1265,
+      "height": 900,
+      "name": "user-1265.png",
+      "fullPage": false,
+      "documentWidth": 1254,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 100,
+      "hero": {
+        "x": 51,
+        "y": 100,
+        "width": 1153,
+        "height": 680
+      },
+      "phones": [
+        {
+          "x": 675,
+          "y": 155,
+          "width": 228,
+          "height": 481
+        },
+        {
+          "x": 929,
+          "y": 211,
+          "width": 228,
+          "height": 481
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "name": "user-768.png",
+      "fullPage": false,
+      "documentWidth": 757,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 90,
+      "hero": {
+        "x": 31,
+        "y": 90,
+        "width": 696,
+        "height": 1272
+      },
+      "phones": [
+        {
+          "x": 112,
+          "y": 655,
+          "width": 251,
+          "height": 530
+        },
+        {
+          "x": 393,
+          "y": 695,
+          "width": 251,
+          "height": 530
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "name": "mobile.png",
+      "fullPage": true,
+      "documentWidth": 379,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 80,
+      "hero": {
+        "x": 20,
+        "y": 80,
+        "width": 339,
+        "height": 937
+      },
+      "phones": [
+        {
+          "x": 49,
+          "y": 619,
+          "width": 131,
+          "height": 276
+        },
+        {
+          "x": 198,
+          "y": 647,
+          "width": 131,
+          "height": 276
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    },
+    {
+      "width": 320,
+      "height": 760,
+      "name": "user-320.png",
+      "fullPage": false,
+      "documentWidth": 309,
+      "overflow": false,
+      "images": [
+        {
+          "path": "/assets/plates/app-export.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/plates/app-language.png",
+          "loaded": true
+        },
+        {
+          "path": "/assets/captionfast-icon.png",
+          "loaded": true
+        }
+      ],
+      "headings": [
+        "iOS apps. Thoughtfully built.",
+        "CaptionFast",
+        "Good ideas deserve good iOS apps.",
+        "A direct line to the person building your app.",
+        "What are you thinking of building?"
+      ],
+      "headerHeight": 115,
+      "hero": {
+        "x": 20,
+        "y": 115,
+        "width": 269,
+        "height": 855
+      },
+      "phones": [
+        {
+          "x": 43,
+          "y": 642,
+          "width": 104,
+          "height": 217
+        },
+        {
+          "x": 162,
+          "y": 670,
+          "width": 104,
+          "height": 217
+        }
+      ],
+      "formLabels": true,
+      "status": "Spam protection will load when you reach the form.",
+      "privacyNote": "No analytics. No advertising cookies.",
+      "privacyDetailsPresent": false
+    }
+  ],
+  "contactClient": {
+    "syntheticOnly": true,
+    "providerRequests": 0,
+    "cases": [
+      {
+        "case": "preview cannot POST",
+        "pass": true
+      },
+      {
+        "case": "missing token cannot POST",
+        "pass": true
+      },
+      {
+        "case": "403 CAPTCHA rejection",
+        "pass": true
+      },
+      {
+        "case": "429 rate limit",
+        "pass": true
+      },
+      {
+        "case": "503 provider unavailable",
+        "pass": true
+      },
+      {
+        "case": "HTTP500 cannot claim success",
+        "pass": true
+      },
+      {
+        "case": "HTTP200 ok false cannot claim success",
+        "pass": true
+      },
+      {
+        "case": "network interruption",
+        "pass": true
+      },
+      {
+        "case": "in-flight disables button and prevents duplicates",
+        "pass": true
+      },
+      {
+        "case": "HTTP200 ok true resets only after acceptance",
+        "pass": true
+      },
+      {
+        "case": "strict JSON payload and no HTML interpretation",
+        "pass": true
+      }
+    ],
+    "totalPosts": 7,
+    "resetCount": 7,
+    "allPass": true
+  },
+  "contrast": [
+    {
+      "selector": ".hero-description",
+      "foreground": "rgb(98, 104, 117)",
+      "background": "rgb(255, 255, 255)",
+      "contrast": 5.59,
+      "passesAA": true
+    },
+    {
+      "selector": ".hero-actions .button",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(34, 84, 239)",
+      "contrast": 5.86,
+      "passesAA": true
+    },
+    {
+      "selector": ".project-introduction .text-link",
+      "foreground": "rgb(34, 84, 239)",
+      "background": "rgb(255, 255, 255)",
+      "contrast": 5.86,
+      "passesAA": true
+    },
+    {
+      "selector": ".contact-copy > p",
+      "foreground": "rgb(225, 232, 255)",
+      "background": "rgb(34, 84, 239)",
+      "contrast": 4.8,
+      "passesAA": true
+    },
+    {
+      "selector": ".field label",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(34, 84, 239)",
+      "contrast": 5.86,
+      "passesAA": true
+    },
+    {
+      "selector": ".field-hint",
+      "foreground": "rgb(225, 232, 255)",
+      "background": "rgb(34, 84, 239)",
+      "contrast": 4.8,
+      "passesAA": true
+    },
+    {
+      "selector": ".form-privacy",
+      "foreground": "rgb(225, 232, 255)",
+      "background": "rgb(34, 84, 239)",
+      "contrast": 4.8,
+      "passesAA": true
+    },
+    {
+      "selector": ".field textarea",
+      "pseudo": "::placeholder",
+      "foreground": "rgb(98, 104, 117)",
+      "background": "rgb(255, 255, 255)",
+      "contrast": 5.59,
+      "passesAA": true
+    }
+  ],
+  "accessibility": {
+    "fieldsLabelled": true,
+    "requiredFields": true,
+    "fieldLimits": {
+      "name": 100,
+      "email": 254,
+      "message": 5000
+    },
+    "anchorTargetsValid": true,
+    "keyboardFocus": {
+      "checked": "Tab navigation to wordmark and skip-link focus",
+      "outline": "3px solid",
+      "visible": true
+    },
+    "visibleHeadingWordsCorrect": true,
+    "reducedMotion": {
+      "cssomVerified": true,
+      "animationName": "none",
+      "transitionDuration": "0s",
+      "scrollBehavior": "auto",
+      "emulatedPreference": false
+    }
+  },
+  "captureValidation": {
+    "openedEach": true,
+    "files": [
+      "hero-repro.png",
+      "desktop.png",
+      "user-1280.png",
+      "user-1265.png",
+      "user-768.png",
+      "mobile.png",
+      "user-320.png"
+    ],
+    "blankOrBlackRegions": false,
+    "fullPagesFromTop": true,
+    "imagesDecoded": true,
+    "animationsFinished": true,
+    "privacySectionAbsent": true
+  },
+  "findings": [],
+  "limits": [
+    "Local Chromium verification only; actual Safari/iOS rendering not covered.",
+    "Turnstile and email delivery were mocked in client tests. No CAPTCHA solved and no provider email sent.",
+    "Reduced-motion CSS rules were inspected through CSSOM; OS preference was not emulated.",
+    "Production TLS, Cloudflare WAF, response headers, verified sending domain, and mailbox delivery require separate release verification."
+  ],
+  "copyRefresh": {
+    "verifiedAt": "2026-10-25T20:05:39Z",
+    "currentFormNote": "No analytics. No advertising cookies.",
+    "refreshedCaptures": [
+      "desktop.png",
+      "mobile.png"
+    ],
+    "otherCaptureViewsUnchanged": true
+  },
+  "controlScaleFix": {
+    "verifiedAt": "2026-10-25T20:15:10Z",
+    "reason": "Independent reviewer material fix: restore approved desktop control scale",
+    "scope": "One CSS batch, same seven capture paths; no client code changes or repeated client scenarios",
+    "target1536": {
+      "primary": "364x73",
+      "secondary": "245x73",
+      "heroLabel": "22-23px",
+      "headerCTA": "160x65"
+    },
+    "allImagesLoaded": true,
+    "allWidthsWithoutOverflow": true,
+    "capturesOpenedAndValid": true,
+    "matrix": [
+      {
+        "width": 1536,
+        "height": 1024,
+        "name": "hero-repro.png",
+        "fullPage": false,
+        "documentWidth": 1525,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 363.99,
+            "height": 72.99,
+            "fontSize": "22.4993px"
+          },
+          {
+            "width": 244.99,
+            "height": 72.99,
+            "fontSize": "22.4993px"
+          }
+        ],
+        "headerCTA": {
+          "width": 160,
+          "height": 65,
+          "fontSize": "22px"
+        },
+        "navigationFont": "20px",
+        "formNote": "No analytics. No advertising cookies."
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "name": "desktop.png",
+        "fullPage": true,
+        "documentWidth": 1429,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 341.24,
+            "height": 68.43,
+            "fontSize": "21.0931px"
+          },
+          {
+            "width": 229.68,
+            "height": 68.43,
+            "fontSize": "21.0931px"
+          }
+        ],
+        "headerCTA": {
+          "width": 150,
+          "height": 60.94,
+          "fontSize": "20.6251px"
+        },
+        "navigationFont": "18.7502px",
+        "formNote": "No analytics. No advertising cookies."
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "name": "user-1280.png",
+        "fullPage": false,
+        "documentWidth": 1269,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 303.33,
+            "height": 60.83,
+            "fontSize": "18.7494px"
+          },
+          {
+            "width": 204.16,
+            "height": 60.83,
+            "fontSize": "18.7494px"
+          }
+        ],
+        "headerCTA": {
+          "width": 134,
+          "height": 56,
+          "fontSize": "18.3334px"
+        },
+        "navigationFont": "18px",
+        "formNote": "No analytics. No advertising cookies."
+      },
+      {
+        "width": 1265,
+        "height": 900,
+        "name": "user-1265.png",
+        "fullPage": false,
+        "documentWidth": 1254,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 226.09,
+            "height": 54.5,
+            "fontSize": "15px"
+          },
+          {
+            "width": 151.61,
+            "height": 54.5,
+            "fontSize": "15px"
+          }
+        ],
+        "headerCTA": {
+          "width": 134,
+          "height": 56,
+          "fontSize": "18.1186px"
+        },
+        "navigationFont": "18px",
+        "formNote": "No analytics. No advertising cookies."
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "name": "user-768.png",
+        "fullPage": false,
+        "documentWidth": 757,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 254.5,
+            "height": 56,
+            "fontSize": "16px"
+          },
+          {
+            "width": 167.58,
+            "height": 56,
+            "fontSize": "16px"
+          }
+        ],
+        "headerCTA": {
+          "width": 112.47,
+          "height": 49.39,
+          "fontSize": "18px"
+        },
+        "navigationFont": "15px",
+        "formNote": "No analytics. No advertising cookies."
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "name": "mobile.png",
+        "fullPage": true,
+        "documentWidth": 379,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 250.5,
+            "height": 54.39,
+            "fontSize": "16px"
+          },
+          {
+            "width": 127.58,
+            "height": 54.39,
+            "fontSize": "16px"
+          }
+        ],
+        "headerCTA": {
+          "width": 77.26,
+          "height": 58.19,
+          "fontSize": "13px"
+        },
+        "navigationFont": "13px",
+        "formNote": "No analytics. No advertising cookies."
+      },
+      {
+        "width": 320,
+        "height": 760,
+        "name": "user-320.png",
+        "fullPage": false,
+        "documentWidth": 309,
+        "overflow": false,
+        "imagesLoaded": true,
+        "heroControls": [
+          {
+            "width": 250.5,
+            "height": 54.39,
+            "fontSize": "16px"
+          },
+          {
+            "width": 127.58,
+            "height": 54.39,
+            "fontSize": "16px"
+          }
+        ],
+        "headerCTA": {
+          "width": 79.81,
+          "height": 38.69,
+          "fontSize": "13px"
+        },
+        "navigationFont": "13px",
+        "formNote": "No analytics. No advertising cookies."
+      }
+    ]
+  }
+}
