@@ -1,0 +1,15 @@
+{
+  "owned_temporary_processes_stopped": true,
+  "plaintext_key_handoffs_remaining": 0,
+  "runtime_scratch_remaining": 0,
+  "dependency_directory_removed": true,
+  "wrangler_local_cache_removed": true,
+  "owned_logs_removed_this_phase": 1,
+  "credential_pattern_logs_this_phase": 0,
+  "retained": "Source, lockfile, public assets, approved comp, final review evidence and provider rollback deployments",
+  "temporary_handoffs_remaining": [],
+  "logical_bytes_removed_final_tooling_pass": 505287994,
+  "logical_bytes_removed_prior_tooling_pass": 212669510,
+  "logical_bytes_removed_design_intermediates": 9086710,
+  "physical_disk_space_delta": "Not separately measured; logical totals may include linked files."
+}

@@ -1,0 +1,330 @@
+{
+  "release_commit": "0e19d4b23dc55c3e1fb95941b4eb4950479d09e0",
+  "deployment": "https://8c4c4a64.applicodo.pages.dev",
+  "verified_at": "2026-10-25T21:21:30.772746+00:00",
+  "tls_certificate_verification": "default HTTPS client verification succeeded",
+  "checks": {
+    "/": {
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-cache",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY",
+      "matches_public_index": true,
+      "brief_note_present": true,
+      "referrer_policy": "strict-origin-when-cross-origin",
+      "permissions_policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
+      "rechecked_after_runtime_fix": true
+    },
+    "/api/contact-config": {
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; base-uri 'none'; frame-ancestors 'none'",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY",
+      "config": {
+        "siteKey": "0x4AAAAAAFlpkYdS5nF9KqrT",
+        "deliveryEnabled": true,
+        "preview": false
+      },
+      "rechecked_after_runtime_fix": true
+    },
+    "/missing-release-check": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY",
+      "rechecked_after_runtime_fix": true
+    },
+    "/shop/": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/my-account/": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/mail/contact_me.php": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/wp-admin/admin-ajax.php": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/package.json": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/applicodo.com-threat-model.md": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/.env": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/_headers": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "/_routes.json": {
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "csp": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "hsts": "max-age=31536000",
+      "nosniff": "nosniff",
+      "frame_options": "DENY"
+    },
+    "df0c05ad.applicodo.pages.dev/api/contact-config": {
+      "status": 200,
+      "cache_control": "no-store",
+      "config": {
+        "siteKey": "",
+        "deliveryEnabled": false,
+        "preview": true
+      }
+    },
+    "df0c05ad.applicodo.pages.dev/api/contact": {
+      "status": 403,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "origin_rejected",
+        "error": "Please send your message from applicodo.com."
+      }
+    },
+    "codex-applicodo-landing.applicodo.pages.dev/api/contact-config": {
+      "status": 200,
+      "cache_control": "no-store",
+      "config": {
+        "siteKey": "",
+        "deliveryEnabled": false,
+        "preview": true
+      }
+    },
+    "codex-applicodo-landing.applicodo.pages.dev/api/contact": {
+      "status": 403,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "origin_rejected",
+        "error": "Please send your message from applicodo.com."
+      }
+    }
+  },
+  "assets": [
+    {
+      "path": "/404.html",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/captionfast-icon.png",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/contact.js",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/site.css",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/favicon.svg",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/plates/app-export.png",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/plates/app-language.png",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/fonts/OFL.txt",
+      "status": 200,
+      "matches_file": true
+    },
+    {
+      "path": "/assets/fonts/manrope-variable.ttf",
+      "status": 200,
+      "matches_file": true
+    }
+  ],
+  "origin": "https://applicodo.com",
+  "live_rejection_checks": [
+    {
+      "case": "missing_fields",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "invalid_fields",
+        "error": "Check your name, email address, and message, then complete verification again."
+      }
+    },
+    {
+      "case": "oversized",
+      "status": 413,
+      "expected": 413,
+      "passed": true,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "request_too_large",
+        "error": "Your message is too large. Please shorten it and try again."
+      }
+    },
+    {
+      "case": "header_injection",
+      "status": 400,
+      "expected": 400,
+      "passed": true,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "invalid_fields",
+        "error": "Check your name, email address, and message, then complete verification again."
+      }
+    },
+    {
+      "case": "captcha_bypass",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "verification_failed",
+        "error": "Please complete the verification again before sending."
+      }
+    },
+    {
+      "case": "cross_origin",
+      "status": 403,
+      "expected": 403,
+      "passed": true,
+      "cache_control": "no-store",
+      "body": {
+        "ok": false,
+        "code": "origin_rejected",
+        "error": "Please send your message from applicodo.com."
+      }
+    }
+  ],
+  "provider_deployment": {
+    "id": "8c4c4a64-0a99-4e2b-af93-ffe131bcd4f1",
+    "environment": "production",
+    "commit_hash": "0e19d4b23dc55c3e1fb95941b4eb4950479d09e0",
+    "uncommitted_publication_sources": false
+  },
+  "runtime_compatibility_fix": {
+    "initial_probe_status": 503,
+    "cause": "Workers does not implement redirect:error; Request construction threw before Siteverify",
+    "correction": "manual redirect mode, with non-2xx rejection at both fixed providers",
+    "actual_workerd_scenarios_passed": 5,
+    "negative_control_failed_with_original_mode": true,
+    "reference": "https://developers.cloudflare.com/workers/runtime-apis/request/"
+  },
+  "runtime_fix_preview": "https://38ff85b5.applicodo.pages.dev",
+  "contact_delivery": {
+    "verified_at": "2026-10-25T21:11:59.530579+00:00",
+    "genuine_turnstile_completed": true,
+    "browser": "Codex in-app browser",
+    "live_widget_csp_compatible": true,
+    "form_success_announced": true,
+    "fields_cleared_only_after_acceptance": true,
+    "resend_event": "Delivered",
+    "fixed_inbox_receipt": "Awaiting user confirmation",
+    "source_commit": "2b222eaa5a87af32ea840a970df5e407b8dccab7"
+  },
+  "canonical_path_guard": {
+    "observed_before_fix": "Pages routed trailing slash to same handler outside exact WAF path",
+    "expected_path": "/api/contact",
+    "live_checks": [
+      {
+        "path": "/api/contact/",
+        "status": 404,
+        "code": "not_found",
+        "cache_control": "no-store"
+      },
+      {
+        "path": "/api/contact",
+        "status": 403,
+        "code": "verification_failed",
+        "cache_control": "no-store"
+      }
+    ],
+    "workerd_outbound_calls_for_alias": 0
+  },
+  "final_checks_reported": 28
+}
