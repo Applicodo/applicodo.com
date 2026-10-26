@@ -161,5 +161,7 @@
       "horizontalOverflow": false,
       "lines": 1
     }
-  ]
+  ],
+  "stylesheet_version": "246ea145b191",
+  "cache_rollout": "Both HTML pages use a content-hash query version because existing clients retained the previous unversioned CSS."
 }
