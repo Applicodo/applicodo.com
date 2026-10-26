@@ -13,7 +13,7 @@ colors:
 typography:
   display:
     fontFamily: "Manrope, sans-serif"
-    fontSize: "clamp(3.5rem, 5.75vw, 5.625rem)"
+    fontSize: "clamp(2.75rem, 11.5cqw, 5.625rem)"
     fontWeight: 800
     lineHeight: 1.14
     letterSpacing: "-0.04em"
@@ -148,7 +148,7 @@ The palette combines cool paper and graphite with a saturated, purposeful blue. 
 
 ### Hierarchy
 
-- **Display:** the frontmatter display role is the wide-screen hero. At intermediate desktop widths it becomes `clamp(3.125rem, 5.55vw, 4.4375rem)`; at tablet widths, `clamp(3.125rem, 8.75vw, 5.625rem)`; on phones, `clamp(2.75rem, 11.7vw, 3.75rem)` with a slightly tighter line height (1.12).
+- **Display:** from 901px, the frontmatter display role sizes against the `.hero-copy` inline-size container, keeping the complete blue phrase inside its column. Normal wrapping remains a safety net. At tablet widths it becomes `clamp(3.125rem, 8.75vw, 5.625rem)`; on phones, `clamp(2.75rem, 11.7vw, 3.75rem)` with a slightly tighter line height (1.12).
 - **Headline:** the frontmatter headline role leads ordinary sections. The work heading uses `clamp(2.375rem, 3.5vw, 3.25rem)`; contact has a larger display treatment, with the phone contact heading at 2.75rem. Ordinary phone section headings settle at 2.5rem.
 - **Title:** the title role labels service rows. It reduces to 1.25rem at tablet and phone widths.
 - **Body:** the body role describes service and approach copy; project paragraphs use 1.25rem with a 1.7 line height on desktop. Long prose is capped at 65ch. Most phone paragraphs use 1rem with a 1.75 line height.
