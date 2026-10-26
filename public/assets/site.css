@@ -67,7 +67,7 @@ section[id], details[id] { scroll-margin-top: 2rem; }
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.04fr); align-items: center; min-height: 786px; padding-block: 1.25rem 2.25rem; gap: 1.5rem; }
 .hero-copy { position: relative; z-index: 1; padding-block: 1rem; }
 h1 { font-size: clamp(3.5rem, 5.75vw, 5.625rem); line-height: 1.14; font-weight: 800; letter-spacing: -0.04em; }
-h1 span { color: var(--blue); white-space: nowrap; }
+h1 span { color: var(--blue); white-space: normal; }
 .hero-description { max-width: 39rem; margin-top: 2.25rem; color: var(--muted); font-size: clamp(1.25rem, 1.78vw, 1.6875rem); font-weight: 500; line-height: 1.5; letter-spacing: -0.025em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 3.25rem; }
 .hero-actions .button { padding-inline: 1.5rem; }
@@ -144,6 +144,8 @@ h2 { font-size: clamp(2.5rem, 3.8vw, 3.75rem); line-height: 1.16; font-weight: 7
 }
 
 @media (min-width: 901px) {
+  .hero-copy { container-type: inline-size; }
+  .hero h1 { font-size: clamp(2.75rem, 11.5cqw, 5.625rem); }
   .site-header nav { font-size: clamp(1.125rem, 1.3021vw, 1.25rem); }
   .site-header .button-small {
     min-width: clamp(8.375rem, 10.4167vw, 10rem);
@@ -169,7 +171,6 @@ h2 { font-size: clamp(2.5rem, 3.8vw, 3.75rem); line-height: 1.16; font-weight: 7
 
 @media (max-width: 1279px) and (min-width: 901px) {
   .hero { min-height: 680px; }
-  h1 { font-size: clamp(3.125rem, 5.55vw, 4.4375rem); }
   .hero-description { font-size: 1.375rem; }
   .hero-actions { margin-top: 2.25rem; gap: 0.75rem; }
   .hero-actions .button { font-size: 0.9375rem; padding: 1rem; gap: 0.5rem; }
