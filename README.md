@@ -34,4 +34,6 @@ No website lead database, accounts, uploads, payments or analytics. Enquiries ne
 
 The user chose Impeccable's concept-first workflow and approved A — Open canvas. Authentic CaptionFast screen/icon copies carry provenance metadata. Manrope is self-hosted with its SIL Open Font License.
 
+The portfolio also presents RentalBench and GarageClerk using their actual brand assets and product captures with fictional demonstration data. `docs/portfolio-provenance.json` records source files, revisions and hashes. Screens are self-hosted; project destinations use ordinary followable HTTPS links. Applicodo retains its independent iOS development positioning.
+
 Owned dependencies, mocks and captures have a combined 512 MiB budget. Stop owned processes before cleanup. Remove superseded images, duplicate captures, archives, local dependencies/build caches and disposable credentials when no longer needed. Preserve source, final assets, approved comp, minimum evidence, user/unrelated data and provider rollback deployments.

@@ -220,6 +220,10 @@ Service rows use a title and a description across the shared two-column grid, se
 
 Original app screens appear together in a pale, gently rounded stage, each inside dark device chrome. The second device has a deliberate vertical offset. It settles upward by 12px over 900ms with `cubic-bezier(0.16, 1, 0.3, 1)` only when reduced motion is not requested. Content is always present; reduced-motion mode removes animations, transitions and smooth scrolling.
 
+### Additional Web Projects
+
+RentalBench and GarageClerk follow CaptionFast in open, ruled rows. Desktop copy and imagery use a 0.78:1.22 grid with a responsive 2–5rem gap; at 900px and below the copy precedes the image. Screens remain proportional inside a cool pale stage, with no simulated laptop or animation. GarageClerk's existing responsive captures preserve complete board lanes. The original RentalBench wordmark and GarageClerk brand icon keep their source colors; generated logo substitutes are not used. Project actions use the existing blue text-link treatment and open their direct destinations in the same tab.
+
 ## Do's and Don'ts
 
 ### Do:

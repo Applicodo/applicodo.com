@@ -4,6 +4,8 @@ Applicodo is a public static marketing site with a narrowly scoped contact funct
 
 ## Scope and assumptions
 
+**2026-11-11 portfolio extension:** RentalBench and GarageClerk add self-hosted, static brand assets and real application captures with documented fictional fixtures. Direct HTTPS project anchors open in the same tab, with no tracking redirects or third-party embeds. The public output allowlist covers the additional files and verifies static SVG content, local responsive image references, followable project links and the stylesheet content hash. This extension changes no contact handler, client form logic, runtime binding, API route, response security policy or DNS record. Asset provenance is retained outside the public directory in `docs/portfolio-provenance.json`; the original contact-delivery evidence and pending fixed-inbox confirmation below remain historical facts and are not renewed by this content release.
+
 - **Reviewed runtime:** `functions/api/contact.js`, `functions/api/contact-config.js`, `public/index.html`, `public/assets/contact.js`, `public/_headers`, `public/_routes.json`, and `wrangler.jsonc`.
 - **Reviewed delivery tooling:** `package.json`, `package-lock.json`, and the output/deployment boundary. Tests are evidence of application behavior, not production provider availability.
 - **Validated with the user on 2026-10-25:** public English marketing page for independent iOS development; name, email and ordinary project message only; fixed recipient `contact@applicodo.com`; Resend sending subdomain `forms.applicodo.com`; no accounts, uploads, payments, lead database, automatic replies or analytics. Keep the existing Cloudflare Pages project and Google Workspace routing; no paid upgrade.
