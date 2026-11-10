@@ -149,5 +149,229 @@
       1920
     ]
   },
-  "production": null
+  "production": {
+    "date": "2026-11-11",
+    "base": "https://applicodo.com",
+    "publicFiles": [
+      {
+        "path": "/404.html",
+        "status": 200,
+        "sha256": "75b04adf88e8ead90422676cfe6f48dd5c1eae7f87f9edbffc2abe6d19af442d"
+      },
+      {
+        "path": "/assets/captionfast-icon.png",
+        "status": 200,
+        "sha256": "ffc18050e947ac8f3c0ba8d0901ac2e50d000f5c3f713522b8393239cb13ef60"
+      },
+      {
+        "path": "/assets/contact.js",
+        "status": 200,
+        "sha256": "e05ebf3b7d392ac0088849bb0fc5cbffc7e08d68510c0efeb9791f49259fae2f"
+      },
+      {
+        "path": "/assets/favicon.svg",
+        "status": 200,
+        "sha256": "3138cd52998130369922e77a48452496f9c8e3636848f221b52b37d65ba919a4"
+      },
+      {
+        "path": "/assets/fonts/OFL.txt",
+        "status": 200,
+        "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+      },
+      {
+        "path": "/assets/fonts/manrope-variable.ttf",
+        "status": 200,
+        "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+      },
+      {
+        "path": "/assets/garageclerk-icon.svg",
+        "status": 200,
+        "sha256": "cdfc0ea9bbbcb0641031446d2a8ebe32e2f45bb69f03030aa809e0744bc07ce1"
+      },
+      {
+        "path": "/assets/plates/app-export.png",
+        "status": 200,
+        "sha256": "768ac6e3351b2ce0ea9c1e14dbd1be2f4224156da8a2f45d7ebe692f0bb93ca6"
+      },
+      {
+        "path": "/assets/plates/app-language.png",
+        "status": 200,
+        "sha256": "c19d4634519630fb5a23d33f32b0dd6c141d78fb855950db4fbdf67e365df41d"
+      },
+      {
+        "path": "/assets/plates/garageclerk-board-mobile.webp",
+        "status": 200,
+        "sha256": "e97824a2ce2ee45dfbeea983d2a73960d464506aa6a8a554b6267a4fc6eb6141"
+      },
+      {
+        "path": "/assets/plates/garageclerk-board-tablet.webp",
+        "status": 200,
+        "sha256": "29048dabec47b00ee87052cd035f29b8c425ae7a9da1c81574e44190dcb27bb5"
+      },
+      {
+        "path": "/assets/plates/garageclerk-board.webp",
+        "status": 200,
+        "sha256": "e09ae57c1c7dd362e4ce2712fdb29dfffc874408be180385aa5546fa03c34fda"
+      },
+      {
+        "path": "/assets/plates/rentalbench-dashboard.png",
+        "status": 200,
+        "sha256": "9b63686ac4dca4bf9b2601fa6293fd3d38261874a3a39079882874b06d6f93fe"
+      },
+      {
+        "path": "/assets/rentalbench-logo.svg",
+        "status": 200,
+        "sha256": "d4702d93a181c3a60fce7ced7fe8983387cd0c329c7105aa1c3fbfc44c9fd651"
+      },
+      {
+        "path": "/assets/site.css",
+        "status": 200,
+        "sha256": "58be949db96eb768b68060e8e99983fa5b1cbcffb86c54dcc1afe3106b67edb2"
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "sha256": "1cf9dbc7d6ad982a57aa4dd554f142aabb16bbe8d9f420eebabf5ed4e4d50379"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "sha256": "b39a2b2c3d9df71a6134aa3598fea9edc3581fbe3ff8b5d0c0af87e53e533c0e"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "sha256": "b7961e571d9b6120a1952f37a024fd4815611ed4f9eeeaac54c2d26b858dee6e"
+      },
+      {
+        "path": "/no-such-portfolio-page",
+        "status": 404
+      },
+      {
+        "path": "/docs/portfolio-provenance.json",
+        "status": 404
+      },
+      {
+        "path": "/wrangler.jsonc",
+        "status": 404
+      },
+      {
+        "path": "/shop/",
+        "status": 404
+      }
+    ],
+    "headers": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; base-uri 'none'; object-src 'none'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests",
+      "Strict-Transport-Security": "max-age=31536000",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+    },
+    "contactConfiguration": {
+      "deliveryEnabled": true,
+      "preview": false,
+      "publicKeyPresent": true
+    },
+    "contactGetStatus": 405,
+    "emailSent": false,
+    "sourceCommit": "9cf58bdd5f8862a23fe2b25bc7dca485fb4d3919",
+    "deploymentUrl": "https://1c9a5fcd.applicodo.pages.dev",
+    "publicationMatchesPreview": true,
+    "stylesheetVersion": "58be949db96e",
+    "canonicalRedirects": [
+      {
+        "url": "http://applicodo.com/",
+        "status": 301,
+        "location": "https://applicodo.com/"
+      },
+      {
+        "url": "https://www.applicodo.com/",
+        "status": 301,
+        "location": "https://applicodo.com/"
+      }
+    ],
+    "browser": [
+      {
+        "width": 1440,
+        "stylesheet": "/assets/site.css?v=58be949db96e",
+        "overflow": false,
+        "logos": [
+          {
+            "src": "/assets/rentalbench-logo.svg",
+            "width": 420,
+            "loaded": true
+          },
+          {
+            "src": "/assets/garageclerk-icon.svg",
+            "width": 512,
+            "loaded": true
+          }
+        ],
+        "garageSource": "/assets/plates/garageclerk-board.webp",
+        "links": [
+          {
+            "href": "https://captionfast.com/",
+            "rel": "",
+            "target": ""
+          },
+          {
+            "href": "https://apps.apple.com/us/app/captionfast-auto-ai-captions/id6757338308",
+            "rel": "",
+            "target": ""
+          },
+          {
+            "href": "https://rentalbench.com/",
+            "rel": "",
+            "target": ""
+          },
+          {
+            "href": "https://garageclerk.com/",
+            "rel": "",
+            "target": ""
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "stylesheet": "/assets/site.css?v=58be949db96e",
+        "overflow": false,
+        "logos": [
+          {
+            "src": "/assets/rentalbench-logo.svg",
+            "width": 420,
+            "loaded": true
+          },
+          {
+            "src": "/assets/garageclerk-icon.svg",
+            "width": 512,
+            "loaded": true
+          }
+        ],
+        "garageSource": "/assets/plates/garageclerk-board-mobile.webp",
+        "links": [
+          {
+            "href": "https://captionfast.com/",
+            "rel": "",
+            "target": ""
+          },
+          {
+            "href": "https://apps.apple.com/us/app/captionfast-auto-ai-captions/id6757338308",
+            "rel": "",
+            "target": ""
+          },
+          {
+            "href": "https://rentalbench.com/",
+            "rel": "",
+            "target": ""
+          },
+          {
+            "href": "https://garageclerk.com/",
+            "rel": "",
+            "target": ""
+          }
+        ]
+      }
+    ]
+  }
 }
