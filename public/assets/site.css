@@ -87,6 +87,18 @@ h1 span { color: var(--blue); white-space: normal; }
 .project-story > p { max-width: 65ch; font-size: 1.25rem; line-height: 1.7; color: var(--muted); }
 .capabilities { list-style: none; display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; padding: 0; margin: 1.75rem 0 0; font-size: 0.875rem; font-weight: 650; color: var(--ink); }
 .capabilities li { border-bottom: 1px solid var(--line); padding-bottom: 0.4rem; }
+.project-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin-top: 0.5rem; }
+.web-project { display: grid; grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr); align-items: center; gap: clamp(2rem, 5vw, 5rem); margin-top: 5rem; padding-top: 4rem; border-top: 1px solid var(--line); }
+.web-project-copy { min-width: 0; }
+.project-brand { display: flex; align-items: center; gap: 1rem; font-size: clamp(2.25rem, 3.1vw, 3rem); line-height: 1.2; }
+.project-brand > img { width: 3rem; height: 3rem; flex: none; }
+.project-brand > .rentalbench-logo { width: min(100%, 26.25rem); height: auto; }
+.web-project-copy > p { max-width: 42ch; margin-top: 1.5rem; font-size: 1.25rem; line-height: 1.7; color: var(--muted); }
+.web-project-copy .capabilities { line-height: 1.6; }
+.project-website { margin-top: 2rem; font-size: 1.125rem; line-height: 1.6; }
+.web-project-stage { padding: clamp(0.75rem, 1.5vw, 1.5rem); border-radius: 24px; background: var(--surface); }
+.web-project-stage picture { display: block; }
+.web-project-stage img { width: 100%; height: auto; border-radius: 12px; }
 
 .services { padding-block: 5rem 8rem; border-top: 1px solid var(--line); }
 .section-introduction { display: grid; grid-template-columns: 1fr 1.04fr; align-items: end; gap: 1.5rem; margin-bottom: 4rem; }
@@ -201,6 +213,9 @@ h2 { font-size: clamp(2.5rem, 3.8vw, 3.75rem); line-height: 1.16; font-weight: 7
   .project-identity p { font-size: 1.125rem; }
   .project-story > p { font-size: 1.125rem; }
   .work { padding-bottom: 5rem; }
+  .web-project { grid-template-columns: 1fr; gap: 2rem; margin-top: 4rem; padding-top: 3rem; }
+  .web-project-copy > p { max-width: 55ch; font-size: 1.125rem; }
+  .project-brand { font-size: 2.5rem; }
   .services { padding-block: 4rem 5rem; }
   .section-introduction { grid-template-columns: 1fr; gap: 1.75rem; margin-bottom: 3rem; }
   .section-introduction > p { font-size: 1.125rem; max-width: 60ch; }
@@ -243,6 +258,14 @@ h2 { font-size: clamp(2.5rem, 3.8vw, 3.75rem); line-height: 1.16; font-weight: 7
   .project-story > p { font-size: 1rem; line-height: 1.75; }
   .capabilities { gap: 0.75rem 1rem; font-size: 0.8125rem; }
   .work { padding-bottom: 4rem; }
+  .project-links { flex-direction: column; align-items: start; gap: 0.65rem; margin-top: 0.75rem; }
+  .web-project { gap: 1.75rem; margin-top: 3rem; padding-top: 2.5rem; }
+  .project-brand { gap: 0.75rem; font-size: clamp(1.875rem, 7.7vw, 2.5rem); }
+  .project-brand > img { width: 2.5rem; height: 2.5rem; }
+  .project-brand > .rentalbench-logo { width: min(100%, 22rem); height: auto; }
+  .web-project-copy > p { margin-top: 1.25rem; font-size: 1rem; line-height: 1.75; }
+  .project-website { margin-top: 1.5rem; font-size: 1rem; }
+  .web-project-stage { padding: 0.75rem; border-radius: 16px; }
   h2 { font-size: 2.5rem; }
   .services { padding-block: 3rem 4rem; }
   .section-introduction { margin-bottom: 2.5rem; gap: 1.5rem; }

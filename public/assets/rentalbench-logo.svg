@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="72" viewBox="0 0 420 72" role="img" aria-label="RentalBench">
+  <title>RentalBench</title>
+  <g transform="translate(4 4) scale(.27826)">
+    <path fill="#007595" d="M24 23.5h111.5c36 0 63 27 63 62.5 0 28.2-19.2 50.9-46.9 56.4l57.4 55.8c4.4 4.3 1.3 11.6-4.8 11.6h-39.4c-2.4 0-4.7-.9-6.4-2.6l-85.9-84.7c-4.5-4.4-1.4-12 4.9-12h55.2c19.1 0 29.8-9.1 29.8-25 0-17-10.7-26-29.8-26H25c-3.9 0-6.5-2.7-6.5-6.4V30c0-3.7 2.3-6.5 5.5-6.5Z"/>
+    <path fill="#F97316" d="M28.6 133h22.9c2.3 0 4.5.9 6.2 2.5l65.1 64.2c4.2 4.1 1.3 10.3-4.6 10.3H28.6c-3.9 0-6.6-2.7-6.6-6.6v-63.8c0-3.8 2.5-6.6 6.6-6.6Z"/>
+  </g>
+  <text x="80" y="49" fill="#111827" font-family="Outfit, Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="-.7">RentalBench</text>
+</svg>

@@ -1,0 +1,159 @@
+{
+ "version": 1,
+ "checked_at": "2026-11-10T23:01:53Z",
+ "repositories": {
+  "rentalbench": {
+   "root": "/Volumes/Data/Projects/rentalbench-marketing",
+   "head": "b37ad916bb2c7f1279f2ebf3af8ec220d332dd5a"
+  },
+  "garageclerk": {
+   "root": "/Volumes/Data/Projects/GarageClerk-Marketing",
+   "head": "5ce30ff2146de8d44e89cc51e703e3320abd50f6"
+  }
+ },
+ "assets": [
+  {
+   "repository": "rentalbench",
+   "source": "public/images/captures/operations-dashboard.png",
+   "shipping": "public/assets/plates/rentalbench-dashboard.png",
+   "width": 2880,
+   "height": 1840,
+   "file_revision": "86d3f7c7a3293bdcb7bb927731e1123d92e907a7",
+   "embedded_origin": true,
+   "image_payload_unchanged": true,
+   "shipping_sha256": "9b63686ac4dca4bf9b2601fa6293fd3d38261874a3a39079882874b06d6f93fe",
+   "shipping_bytes": 148886,
+   "source_sha256": "24a3f67c6cba5573c2c9b46e07303814508e62d2fe40815ef0ade120f8405515",
+   "source_bytes": 148394
+  },
+  {
+   "repository": "rentalbench",
+   "source": "public/images/brand/logo-primary.svg",
+   "shipping": "public/assets/rentalbench-logo.svg",
+   "width": 420,
+   "height": 72,
+   "file_revision": "09c24fa45305ad56783d008577437d027732767a",
+   "brand_evidence": "src/components/header.tsx -> Logo in src/components/logo.tsx.",
+   "shipping_sha256": "d4702d93a181c3a60fce7ced7fe8983387cd0c329c7105aa1c3fbfc44c9fd651",
+   "shipping_bytes": 863,
+   "source_sha256": "d4702d93a181c3a60fce7ced7fe8983387cd0c329c7105aa1c3fbfc44c9fd651",
+   "source_bytes": 863
+  },
+  {
+   "repository": "garageclerk",
+   "source": "public/media/features/jobs/job-board-en.webp",
+   "shipping": "public/assets/plates/garageclerk-board.webp",
+   "width": 1650,
+   "height": 686,
+   "file_revision": "f991de3eab6c8e4c802f9af8e0b725c8d2da8835",
+   "embedded_origin": true,
+   "shipping_sha256": "e09ae57c1c7dd362e4ce2712fdb29dfffc874408be180385aa5546fa03c34fda",
+   "shipping_bytes": 35844,
+   "source_sha256": "395d23de72c1a3eea95c937b5619455ff02cbb159bfe907f2b8aa28cf5634637",
+   "source_bytes": 35346,
+   "metadata_format": "native WebP XMP (dc:description)",
+   "decoded_pixels_unchanged": true
+  },
+  {
+   "repository": "garageclerk",
+   "source": "public/media/features/jobs/job-board-en-tablet.webp",
+   "shipping": "public/assets/plates/garageclerk-board-tablet.webp",
+   "width": 1104,
+   "height": 686,
+   "file_revision": "f991de3eab6c8e4c802f9af8e0b725c8d2da8835",
+   "embedded_origin": true,
+   "shipping_sha256": "29048dabec47b00ee87052cd035f29b8c425ae7a9da1c81574e44190dcb27bb5",
+   "shipping_bytes": 26952,
+   "source_sha256": "07f8f684eb98bb24ffeeaab025c46188946b36347f4d7efd485d8c9128da5c10",
+   "source_bytes": 26462,
+   "metadata_format": "native WebP XMP (dc:description)",
+   "decoded_pixels_unchanged": true
+  },
+  {
+   "repository": "garageclerk",
+   "source": "public/media/features/jobs/job-board-en-mobile.webp",
+   "shipping": "public/assets/plates/garageclerk-board-mobile.webp",
+   "width": 544,
+   "height": 686,
+   "file_revision": "f991de3eab6c8e4c802f9af8e0b725c8d2da8835",
+   "embedded_origin": true,
+   "shipping_sha256": "e97824a2ce2ee45dfbeea983d2a73960d464506aa6a8a554b6267a4fc6eb6141",
+   "shipping_bytes": 16528,
+   "source_sha256": "5ddee3b44d01baff88efd6900dffacfb598aee179eb484eebd845b99c9e3e7ec",
+   "source_bytes": 15936,
+   "metadata_format": "native WebP XMP (dc:description)",
+   "decoded_pixels_unchanged": true
+  },
+  {
+   "repository": "garageclerk",
+   "source": "public/media/icon.svg",
+   "shipping": "public/assets/garageclerk-icon.svg",
+   "width": 512,
+   "height": 512,
+   "file_revision": "5ce30ff2146de8d44e89cc51e703e3320abd50f6",
+   "brand_evidence": "src/components/logo.tsx supplies semantic name; icon.svg is original.",
+   "shipping_sha256": "cdfc0ea9bbbcb0641031446d2a8ebe32e2f45bb69f03030aa809e0744bc07ce1",
+   "shipping_bytes": 286,
+   "source_sha256": "cdfc0ea9bbbcb0641031446d2a8ebe32e2f45bb69f03030aa809e0744bc07ce1",
+   "source_bytes": 286
+  }
+ ],
+ "capture_evidence": {
+  "rentalbench": {
+   "fixture": "Framehouse Camera Rentals (synthetic)",
+   "manifest": "public/images/captures/manifest.json#operations-dashboard",
+   "capture_revision": "487addf-dirty",
+   "rails_revision": "bac131e3",
+   "fixture_sources": [
+    "scripts/generate-captures.mjs",
+    "scripts/seed-rails-capture-data.rb"
+   ]
+  },
+  "garageclerk": {
+   "fixture": "Apex Detailing (synthetic)",
+   "evidence": "docs/feature-captures.md",
+   "app_revision": "6b56fba33594b8d169e6676a5419d35e75bfba2b",
+   "note": "Real local renders; responsive variants retain three/two/one complete lanes."
+  }
+ },
+ "canonical_checks": [
+  {
+   "url": "https://rentalbench.com/",
+   "status": 200,
+   "final_url": "https://rentalbench.com/",
+   "canonical_markup": "https://rentalbench.com"
+  },
+  {
+   "url": "https://garageclerk.com/",
+   "status": 200,
+   "final_url": "https://garageclerk.com/",
+   "canonical_markup": "https://garageclerk.com/"
+  },
+  {
+   "url": "https://captionfast.com/",
+   "status": 200,
+   "final_url": "https://captionfast.com/",
+   "canonical_markup": "https://captionfast.com"
+  }
+ ],
+ "svg_audit": {
+  "files": [
+   "assets/rentalbench-logo.svg",
+   "assets/garageclerk-icon.svg"
+  ],
+  "result": "pass",
+  "static_shapes_only": true,
+  "absent": "Scripts, event handlers, foreignObject, iframe, image/use references, href/src, DOCTYPE/entities and CSS url().",
+  "delivery": "Original SVGs via img under existing CSP; RentalBench retains original font fallback without remote font loading."
+ },
+ "budget": {
+  "existing_public_bytes": 495715,
+  "additional_asset_bytes": 229359,
+  "projected_before_html_css_bytes": 725074,
+  "limit_bytes": 1048576
+ },
+ "link_contract": "Direct HTTPS same-tab anchors; omit nofollow, ugc and sponsored; retain existing App Store link.",
+ "content_contract": "Conservative capabilities only; no customer, revenue, performance, testimonial or provider-activation claims.",
+ "asset_preparation": "Original artwork; Impeccable PNG metadata; native WebP XMP via preinstalled Pillow 13 lossless save. WebP decoded size, mode and pixels match source; public sidecars removed.",
+ "source_files_modified": false
+}

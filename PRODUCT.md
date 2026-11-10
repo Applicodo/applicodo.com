@@ -16,7 +16,7 @@ Founders and businesses seeking direct collaboration with an independent iOS dev
 
 ## Product Purpose
 
-Explain Applicodo's native iOS development service, demonstrate real work through CaptionFast, and invite a project enquiry.
+Explain Applicodo's native iOS development service, demonstrate real work through CaptionFast with RentalBench and GarageClerk as additional web projects, and invite a project enquiry.
 
 ## Positioning
 
@@ -41,6 +41,9 @@ Keep the Applicodo name and refresh the identity. Bold typography, generous spac
 - CaptionFast is an iPhone captioning app sold by APPLICODO S.R.L.: https://apps.apple.com/us/app/captionfast-auto-ai-captions/id6757338308
 - Verified capabilities: transcription, caption styles, word highlighting, positioning/timing controls and video export.
 - Existing neutral images: CaptionFast website export-in-4k.png and languages.png; app logo. Keep origins with shipping copies.
+- RentalBench: rental inventory and operations software for small teams, with inventory/availability, rental workflows and an online storefront. Use the original RentalBench wordmark and documented sample dashboard capture from its marketing repository.
+- GarageClerk: software for detailing shops, with customer/vehicle records, work bay scheduling and job progress. Use its original brand icon and documented sample job-board captures from its marketing repository.
+- The user kept iOS as the main focus when adding the two web projects. All project links are ordinary, direct HTTPS links without nofollow, ugc or sponsored attributes.
 - No approved commercial statistics, testimonials, ratings, customer list, or performance claims.
 
 ## Product Principles
